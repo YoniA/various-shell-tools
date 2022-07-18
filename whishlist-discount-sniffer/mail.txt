@@ -1,0 +1,3 @@
+From: "Mr. Foobar" <foo.bar@example.com>
+To: "Mr. Baz" <baz@example.com>
+Subject: Discount Sniffer Alert - Book Depository

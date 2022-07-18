@@ -1,0 +1,14 @@
+#!/bin/zsh
+
+vared -p "enter time in seconds: " -c time
+echo  "time is " $time
+
+for i in {1..${time}}
+do
+	clear
+	echo -ne "$(date +%T | figlet -w $(tput cols) -f banner)\r" 
+	sleep 1
+done
+
+clear
+echo "Time for a break!" | figlet
